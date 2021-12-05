@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fsdklklvlkfskldfjkhjhjhj:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fsdklklvlkfskldfjkhjhjhj_jar</output-path>
+    <root id="archive" name="fsdklklvlkfskldfjkhjhjhj.jar">
+      <element id="module-output" name="fsdklklvlkfskldfjkhjhjhj" />
+    </root>
+  </artifact>
+</component>
