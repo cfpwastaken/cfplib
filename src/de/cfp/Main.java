@@ -5,10 +5,22 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(args.length);
-        for (int i = 0; i < args.length; i++) {
-            System.out.println(args[i]);
-        }
+        Logger.debug = true;
+        ArgParser.parse(args);
+        System.out.println(ArgParser.getBool("debug"));
+        System.out.println(ArgParser.getString("input"));
+        System.out.println(ArgParser.getInt("amount"));
+//        String[] arr = {"1", "2", "3"};
+//        System.out.println(StringUtil.fromArray(arr, "-"));
+
+//        int[] arr = {1, 2, 3};
+//        var lst = ArrUtil.toArrayListInt(arr);
+//        lst.add(4);
+//        System.out.println(StringUtil.fromArray(ArrUtil.fromArrayListInt(lst), ", "));
+
+//        System.out.println(MathUtil.random(69, 420));
+
+//        jhkfghjfhjhui
     }
 
 }
